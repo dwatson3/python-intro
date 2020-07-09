@@ -1,15 +1,15 @@
 # Glossary
 
-# Indentation
-# Variables and Types
+# Indentation https://www.learnpython.org/en/Hello,_World!
+# Variables and Types https://www.learnpython.org/en/Variables_and_Types
     # Numbers
     # Strings
     # Lists
-# Basic Operators
+# Basic Operators https://www.learnpython.org/en/Basic_Operators
     # Arithmetic Operators
     # Using Operators with Strings
     # Using Operators with Lists
-    
+
 
 
 # Notes from https://www.learnpython.org
