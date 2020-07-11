@@ -5,6 +5,10 @@
 # Conditions https://www.learnpython.org/en/Conditions
     # Boolean Operators
     # The "In" Operator
+    # The 'is' Operator
+    # The "not" Operator
+# Loops https://www.learnpython.org/en/Loops
+
 
 # Basic String Operations https://www.learnpython.org/en/Basic_Operators
     # Strings are bits of text. They can be defined as 
@@ -77,9 +81,53 @@ name = "Daphne"
 if name in ["Daphne", "Anders"]:
     print("Your name is either Daphne or Anders.")
 
-# Python uses indentation to define code blocks, instead of brackets. 
-# The standard Python indentation is 4 spaces, although tabs and any 
-# other space size will work, as long as it is consistent. Notice that 
-# code blocks do not need any termination.
+    # Python uses indentation to define code blocks, instead of brackets. 
+    # The standard Python indentation is 4 spaces, although tabs and any 
+    # other space size will work, as long as it is consistent. Notice that 
+    # code blocks do not need any termination.
 
-# Here is an example for using Python's "if" statement using code blocks:
+    # Here is an example for using Python's "if" statement using code blocks:
+statement = False
+another_statement = True
+if statement is True:
+    # do something
+    pass
+elif another_statement is True: # else if
+    # do something else
+    pass
+else:
+    # do another thing
+    pass
+
+x = 5
+if x == 5:
+    print("x equals five!")
+else:
+    print("x does not equal to five.")
+
+    # A statement is evaulated as true if one of the following is correct: 
+    # 1. The "True" boolean variable is given, or calculated using an 
+    # expression, such as an arithmetic comparison. 
+    # 2. An object which is not considered "empty" is passed.
+
+    # Here are some examples for objects which are considered as empty: 
+    # 1. An empty string: "" 
+    # 2. An empty list: [] 
+    # 3. The number zero: 0 
+    # 4. The false boolean variable: False
+
+# The 'is' Operator
+    # Unlike the double equals operator "==", the "is" operator does not 
+    # match the values of the variables, but the instances themselves. 
+    # For example:
+
+x = [1,2,3]
+y = [1,2,3]
+print(x == y) # Prints out True
+print(x is y) # Prints out False
+
+# The "not" operator
+    # Using "not" before a boolean expression inverts it:
+print(not False) # Prints out True
+print((not False) == (False)) # Prints out False
+
